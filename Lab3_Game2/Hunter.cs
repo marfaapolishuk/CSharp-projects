@@ -35,14 +35,14 @@ namespace Lab3_Game2
             Arrows--;
             Console.WriteLine("-1 стріла");
 
-            Health -= 10; // Стандартна втрата здоров'я
+            Health -= 10; 
 
             Random rand = new Random();
             int foundLoot = rand.Next(0, 2);
            
            if (foundLoot > 0)
             {
-                int foundGold = 15; // Нагорода для звичайного мисливця
+                int foundGold = 15; 
 
                 Loot += foundLoot;
                 Gold += foundGold;
