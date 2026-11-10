@@ -12,7 +12,6 @@ namespace Module1
             return 20 + 5 * order.Distance;
         }
 
-        // Перевірка ваги та відстані
         public override bool CanTake(Order order)
         {
             return base.CanTake(order) && order.Distance <= 10;
